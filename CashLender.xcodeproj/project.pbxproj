@@ -14,6 +14,8 @@
 		9954B119215AE3DC00D94BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954B117215AE3DC00D94BD4 /* LaunchScreen.storyboard */; };
 		9954B124215AE3DC00D94BD4 /* CashLenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B123215AE3DC00D94BD4 /* CashLenderTests.swift */; };
 		9954B12F215AE3DC00D94BD4 /* CashLenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */; };
+		9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */; };
+		9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13E215BAFAE00D94BD4 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9954B12A215AE3DC00D94BD4 /* CashLenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashLenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashLenderUITests.swift; sourceTree = "<group>"; };
 		9954B130215AE3DC00D94BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		9954B13E215BAFAE00D94BD4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */,
 				9954B110215AE3DA00D94BD4 /* ViewController.swift */,
+				9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */,
+				9954B13E215BAFAE00D94BD4 /* MainVC.swift */,
 				9954B112215AE3DA00D94BD4 /* Main.storyboard */,
 				9954B115215AE3DC00D94BD4 /* Assets.xcassets */,
 				9954B117215AE3DC00D94BD4 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9954B111215AE3DA00D94BD4 /* ViewController.swift in Sources */,
+				9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */,
+				9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */,
 				9954B10F215AE3DA00D94BD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
