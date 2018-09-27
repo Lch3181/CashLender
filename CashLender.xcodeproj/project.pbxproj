@@ -16,6 +16,8 @@
 		9954B12F215AE3DC00D94BD4 /* CashLenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */; };
 		9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */; };
 		9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13E215BAFAE00D94BD4 /* MainVC.swift */; };
+		99B14713215D93D900BDADA2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14712215D93D900BDADA2 /* SignInVC.swift */; };
+		99B14715215D952300BDADA2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14714215D952300BDADA2 /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9954B130215AE3DC00D94BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		9954B13E215BAFAE00D94BD4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		99B14712215D93D900BDADA2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		99B14714215D952300BDADA2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				9954B110215AE3DA00D94BD4 /* ViewController.swift */,
 				9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */,
 				9954B13E215BAFAE00D94BD4 /* MainVC.swift */,
+				99B14712215D93D900BDADA2 /* SignInVC.swift */,
+				99B14714215D952300BDADA2 /* RegisterVC.swift */,
 				9954B112215AE3DA00D94BD4 /* Main.storyboard */,
 				9954B115215AE3DC00D94BD4 /* Assets.xcassets */,
 				9954B117215AE3DC00D94BD4 /* LaunchScreen.storyboard */,
@@ -265,7 +271,9 @@
 				9954B111215AE3DA00D94BD4 /* ViewController.swift in Sources */,
 				9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */,
 				9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */,
+				99B14715215D952300BDADA2 /* RegisterVC.swift in Sources */,
 				9954B10F215AE3DA00D94BD4 /* AppDelegate.swift in Sources */,
+				99B14713215D93D900BDADA2 /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -438,17 +446,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP4PBABC6N;
 				INFOPLIST_FILE = CashLender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MCB.CashLender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,17 +467,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP4PBABC6N;
 				INFOPLIST_FILE = CashLender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MCB.CashLender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
