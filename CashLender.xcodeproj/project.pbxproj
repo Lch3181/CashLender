@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AE18AB33560DB35950A804 /* Pods_CashLenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503A39F0442D23CD2EB7C84 /* Pods_CashLenderTests.framework */; };
 		9954B10F215AE3DA00D94BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */; };
 		9954B111215AE3DA00D94BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B110215AE3DA00D94BD4 /* ViewController.swift */; };
 		9954B114215AE3DA00D94BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954B112215AE3DA00D94BD4 /* Main.storyboard */; };
 		9954B116215AE3DC00D94BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954B115215AE3DC00D94BD4 /* Assets.xcassets */; };
 		9954B119215AE3DC00D94BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954B117215AE3DC00D94BD4 /* LaunchScreen.storyboard */; };
-		9954B124215AE3DC00D94BD4 /* CashLenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B123215AE3DC00D94BD4 /* CashLenderTests.swift */; };
 		9954B12F215AE3DC00D94BD4 /* CashLenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */; };
 		9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */; };
 		9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13E215BAFAE00D94BD4 /* MainVC.swift */; };
 		99B14713215D93D900BDADA2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14712215D93D900BDADA2 /* SignInVC.swift */; };
 		99B14715215D952300BDADA2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14714215D952300BDADA2 /* RegisterVC.swift */; };
+		99B14717215DA2DE00BDADA2 /* CashLenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B123215AE3DC00D94BD4 /* CashLenderTests.swift */; };
+		9B579914AF437F5C04737312 /* Pods_CashLenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AF4B6A34715965E59E1326 /* Pods_CashLenderUITests.framework */; };
+		ADEF4C0B25A62681E459316E /* Pods_CashLender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9478E6CF821D0A7F26616A5E /* Pods_CashLender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022567BAFACF425DD79F9553 /* Pods-CashLender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLender.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashLender/Pods-CashLender.release.xcconfig"; sourceTree = "<group>"; };
+		0FBA659BAF4BE12F6B595A2B /* Pods-CashLender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashLender/Pods-CashLender.debug.xcconfig"; sourceTree = "<group>"; };
+		3E39BDB6906115238D90BFD0 /* Pods-CashLenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLenderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashLenderUITests/Pods-CashLenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4503A39F0442D23CD2EB7C84 /* Pods_CashLenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashLenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7AE03A9A6885BAAE87F7AB /* Pods-CashLenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLenderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashLenderUITests/Pods-CashLenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88F433830CC3224CB5D09F70 /* Pods-CashLenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLenderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashLenderTests/Pods-CashLenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9478E6CF821D0A7F26616A5E /* Pods_CashLender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashLender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B10B215AE3DA00D94BD4 /* CashLender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashLender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9954B110215AE3DA00D94BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +65,8 @@
 		9954B13E215BAFAE00D94BD4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		99B14712215D93D900BDADA2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		99B14714215D952300BDADA2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		AF2A13B97BCEC067FCF9037F /* Pods-CashLenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLenderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashLenderTests/Pods-CashLenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2AF4B6A34715965E59E1326 /* Pods_CashLenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashLenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEF4C0B25A62681E459316E /* Pods_CashLender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AE18AB33560DB35950A804 /* Pods_CashLenderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B579914AF437F5C04737312 /* Pods_CashLenderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EBDB74B95D305B181AF71A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA659BAF4BE12F6B595A2B /* Pods-CashLender.debug.xcconfig */,
+				022567BAFACF425DD79F9553 /* Pods-CashLender.release.xcconfig */,
+				AF2A13B97BCEC067FCF9037F /* Pods-CashLenderTests.debug.xcconfig */,
+				88F433830CC3224CB5D09F70 /* Pods-CashLenderTests.release.xcconfig */,
+				3E39BDB6906115238D90BFD0 /* Pods-CashLenderUITests.debug.xcconfig */,
+				5D7AE03A9A6885BAAE87F7AB /* Pods-CashLenderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74AA2BBFC025D17687414255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9478E6CF821D0A7F26616A5E /* Pods_CashLender.framework */,
+				4503A39F0442D23CD2EB7C84 /* Pods_CashLenderTests.framework */,
+				F2AF4B6A34715965E59E1326 /* Pods_CashLenderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9954B102215AE3DA00D94BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +127,8 @@
 				9954B122215AE3DC00D94BD4 /* CashLenderTests */,
 				9954B12D215AE3DC00D94BD4 /* CashLenderUITests */,
 				9954B10C215AE3DA00D94BD4 /* Products */,
+				2EBDB74B95D305B181AF71A8 /* Pods */,
+				74AA2BBFC025D17687414255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9954B133215AE3DC00D94BD4 /* Build configuration list for PBXNativeTarget "CashLender" */;
 			buildPhases = (
+				89B566480E240BF993DDD0F4 /* [CP] Check Pods Manifest.lock */,
 				9954B107215AE3DA00D94BD4 /* Sources */,
 				9954B108215AE3DA00D94BD4 /* Frameworks */,
 				9954B109215AE3DA00D94BD4 /* Resources */,
+				ACF718A25656D78394E28EA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9954B136215AE3DC00D94BD4 /* Build configuration list for PBXNativeTarget "CashLenderTests" */;
 			buildPhases = (
+				01D488082DED8B666616497C /* [CP] Check Pods Manifest.lock */,
 				9954B11B215AE3DC00D94BD4 /* Sources */,
 				9954B11C215AE3DC00D94BD4 /* Frameworks */,
 				9954B11D215AE3DC00D94BD4 /* Resources */,
@@ -179,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9954B139215AE3DC00D94BD4 /* Build configuration list for PBXNativeTarget "CashLenderUITests" */;
 			buildPhases = (
+				EAC5C111415A3843A734EB5D /* [CP] Check Pods Manifest.lock */,
 				9954B126215AE3DC00D94BD4 /* Sources */,
 				9954B127215AE3DC00D94BD4 /* Frameworks */,
 				9954B128215AE3DC00D94BD4 /* Resources */,
@@ -263,6 +307,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D488082DED8B666616497C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashLenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B566480E240BF993DDD0F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashLender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF718A25656D78394E28EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CashLender/Pods-CashLender-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashLender/Pods-CashLender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC5C111415A3843A734EB5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashLenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9954B107215AE3DA00D94BD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9954B124215AE3DC00D94BD4 /* CashLenderTests.swift in Sources */,
+				99B14717215DA2DE00BDADA2 /* CashLenderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +579,7 @@
 		};
 		9954B134215AE3DC00D94BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBA659BAF4BE12F6B595A2B /* Pods-CashLender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -465,6 +601,7 @@
 		};
 		9954B135215AE3DC00D94BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022567BAFACF425DD79F9553 /* Pods-CashLender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -486,6 +623,7 @@
 		};
 		9954B137215AE3DC00D94BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2A13B97BCEC067FCF9037F /* Pods-CashLenderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +645,7 @@
 		};
 		9954B138215AE3DC00D94BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F433830CC3224CB5D09F70 /* Pods-CashLenderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +667,7 @@
 		};
 		9954B13A215AE3DC00D94BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E39BDB6906115238D90BFD0 /* Pods-CashLenderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +688,7 @@
 		};
 		9954B13B215AE3DC00D94BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7AE03A9A6885BAAE87F7AB /* Pods-CashLenderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
