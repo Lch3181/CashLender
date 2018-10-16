@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		30AE18AB33560DB35950A804 /* Pods_CashLenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503A39F0442D23CD2EB7C84 /* Pods_CashLenderTests.framework */; };
 		9954B10F215AE3DA00D94BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */; };
-		9954B111215AE3DA00D94BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B110215AE3DA00D94BD4 /* ViewController.swift */; };
 		9954B114215AE3DA00D94BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954B112215AE3DA00D94BD4 /* Main.storyboard */; };
 		9954B116215AE3DC00D94BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9954B115215AE3DC00D94BD4 /* Assets.xcassets */; };
 		9954B119215AE3DC00D94BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954B117215AE3DC00D94BD4 /* LaunchScreen.storyboard */; };
 		9954B12F215AE3DC00D94BD4 /* CashLenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */; };
-		9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */; };
-		9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B13E215BAFAE00D94BD4 /* MainVC.swift */; };
 		99B14713215D93D900BDADA2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14712215D93D900BDADA2 /* SignInVC.swift */; };
 		99B14715215D952300BDADA2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B14714215D952300BDADA2 /* RegisterVC.swift */; };
 		99B14717215DA2DE00BDADA2 /* CashLenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954B123215AE3DC00D94BD4 /* CashLenderTests.swift */; };
@@ -50,7 +47,6 @@
 		9478E6CF821D0A7F26616A5E /* Pods_CashLender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashLender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B10B215AE3DA00D94BD4 /* CashLender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashLender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9954B110215AE3DA00D94BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9954B113215AE3DA00D94BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9954B115215AE3DC00D94BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9954B118215AE3DC00D94BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 		9954B12A215AE3DC00D94BD4 /* CashLenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashLenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954B12E215AE3DC00D94BD4 /* CashLenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashLenderUITests.swift; sourceTree = "<group>"; };
 		9954B130215AE3DC00D94BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
-		9954B13E215BAFAE00D94BD4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		99B14712215D93D900BDADA2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		99B14714215D952300BDADA2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		AF2A13B97BCEC067FCF9037F /* Pods-CashLenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashLenderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashLenderTests/Pods-CashLenderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,9 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				9954B10E215AE3DA00D94BD4 /* AppDelegate.swift */,
-				9954B110215AE3DA00D94BD4 /* ViewController.swift */,
-				9954B13C215BABBD00D94BD4 /* SideMenuVC.swift */,
-				9954B13E215BAFAE00D94BD4 /* MainVC.swift */,
 				99B14712215D93D900BDADA2 /* SignInVC.swift */,
 				99B14714215D952300BDADA2 /* RegisterVC.swift */,
 				9954B112215AE3DA00D94BD4 /* Main.storyboard */,
@@ -403,9 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9954B111215AE3DA00D94BD4 /* ViewController.swift in Sources */,
-				9954B13F215BAFAE00D94BD4 /* MainVC.swift in Sources */,
-				9954B13D215BABBD00D94BD4 /* SideMenuVC.swift in Sources */,
 				99B14715215D952300BDADA2 /* RegisterVC.swift in Sources */,
 				9954B10F215AE3DA00D94BD4 /* AppDelegate.swift in Sources */,
 				99B14713215D93D900BDADA2 /* SignInVC.swift in Sources */,

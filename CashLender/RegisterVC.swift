@@ -12,7 +12,7 @@ import UIKit
 class RegisterVC: UIViewController {
     
     //Defined a constant that holds the URL for our web service
-    let URL_USER_REGISTER = "http://b9b1cef7.ngrok.io/web/v1/Register.php"
+    let URL_USER_REGISTER = "http://c41ecaa6.ngrok.io/web/v1/Register.php"
 
     @IBOutlet weak var UserFirstNameTextbox: UITextField!
     @IBOutlet weak var UserLastNameTextbox: UITextField!

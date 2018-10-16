@@ -19,7 +19,10 @@ class SignInVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.navigationController?.navigationBar.isHidden=true;
     }
+    
+    
 
     @IBAction func SignInButton(_ sender: Any) {
         print("Sign in button tapped")
